@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online </title>
+    <link rel="stylesheet" href="hw14.css">
+    <script 
+      type="module" 
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" 
+    ></script> 
+    <script 
+      nomodule 
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" 
+    ></script> 
+    <script src="jquery3.6.0.js"></script> 
+    <script type="text/javascript" src="hw14.js"></script> 
+</head>
+<body>
+    <div class="header">
+            <img src="logo.png" alt="" class="logo">
+            <span class="home">Home</span>
+            <span class="product">Products</span>
+            <span class="aboutus">About Us</span>
+            <span class="contact">Contact</span>
+    </div>
+
+    <div class="main-container">
+        <div class="productList">
+            <h3 class="title">PRODUCTS LINE UP</h3>
+            <div class="man">
+                <h2>Man</h2>
+                <div class="card">
+                    <div class="photo">
+                        <img src="men/shirt1.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        6000
+                    </div>
+                    <div class="pname">
+                        HODDIES
+                    </div>
+                    <div class="code">
+                        M0234
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="men/shirt2.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        4000
+                    </div>
+                    <div class="pname">
+                        MANCHESTER
+                    </div>
+                    <div class="code">
+                        M0034
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="men/shirt3.jpg" alt="">
+                    </div>
+                    <div class="price"> 5000 </div>
+                    <div class="pname">
+                        BLACK SHIRT
+                    </div>
+                    <div class="code">
+                        M0299
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="men/shirt4.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        2900
+                    </div>
+                    <div class="pname">
+                        BLUE SHIRT
+                    </div>
+                    <div class="code">
+                        M0534
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="men/shirt5.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        3000
+                    </div>
+                    <div class="pname">
+                        WHITE SHIRT
+                    </div>
+                    <div class="code">
+                        M0204
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="men/shirt6.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        4500
+                    </div>
+                    <div class="pname">
+                        BAYERN SHIRT
+                    </div>
+                    <div class="code">
+                        M0134
+                    </div>
+                </div>
+            </div>  
+            <div class="woman">
+                <h2>Woman</h2>
+                <div class="card">
+                    <div class="photo">
+                        <img src="woman/shirt1.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        4500
+                    </div>
+                    <div class="pname">
+                        WHITE ADIDAS
+                    </div>
+                    <div class="code">
+                        W0234
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="woman/shirt2.jpg" alt="">
+                    </div>
+                    <div class="price">
+                         4000
+                    </div>
+                    <div class="pname">
+                        PURPLE ADIDAS
+                    </div>
+                    <div class="code">
+                        W0034
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="woman/shirt3.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        3990
+                    </div>
+                    <div class="pname">
+                        MIDNIGHT ADIDAS
+                    </div>
+                    <div class="code">
+                        W0299
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="woman/shirt4.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        1500
+                    </div>
+                    <div class="pname">
+                        SILVER SHIRT
+                    </div>
+                    <div class="code">
+                        W0534
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="woman/shirt5.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        6500
+                    </div>
+                    <div class="pname">
+                        BLACK SHIRT
+                    </div>
+                    <div class="code">
+                        W0204
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="woman/shirt6.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        7500
+                    </div>
+                    <div class="pname">
+                        BLUE SHIRT
+                    </div>
+                    <div class="code">
+                        W0214
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <h3 class="title">YOUR CART</h3>
+            
+            
+            <div class="calculateitem">
+             
+            </div>
+            <br><br>
+            <span id="amounttitle">Original Total</span>
+            <span  class= "amount" id="originaltotal"></span>
+            <br><br>
+            <span  id="amounttitle" class="dic">Discount(15%)</span>
+            <span class="amountdiscount" id="discountprice"></span>
+            <br><br>
+            <button class="delivery">Delivery</button>
+
+            <div class="detitle">Delivery</div>
+            <div class="form"> 
+            <input type="text" class="userinfo" id="userName" placeholder="Your Name">
+            <input type="text" class="userinfo" id="userPh" placeholder="Phone Number"> <br>
+            <br>
+            <textarea  class="field" id="userAddress" placeholder="Address"></textarea>
+            <br>
+            <select class="state" id="addstate" style="margin-top: 20px;">
+                <option value="3000"> Yangon (+3000 Ks)</option>
+                <option value="5000"> Mandalay (+5000 Ks)</option>
+                <option value="5500"> Nay Pyi Thaw (+5500 Ks)</option>
+                <option value="10000"> International (+10000 Ks)</option>
+            </select>
+             </div>
+            <div class="grandtitle">Grand Totel</div>
+            <div class="grandamount"></div>
+            <br>
+            <button class="order">Order</button>
+            <p class="orderdetail">
+                
+            </p>
+        </div>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
